@@ -1,6 +1,6 @@
 Hello {{ $name }},<br><br>
 
-Welcome to MyNotePaper.<br><br>
+Welcome to Testker.<br><br>
 
 Thank You,<br>
-MyNotepaper
+Testker

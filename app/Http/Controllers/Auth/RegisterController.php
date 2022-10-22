@@ -80,8 +80,8 @@ class RegisterController extends Controller
         // send email with the template
         Mail::send('welcome_email', $email_data, function ($message) use ($email_data) {
             $message->to($email_data['email'], $email_data['name'])
-                ->subject('Welcome to MyNotePaper')
-                ->from('info@mynotepaper.com', 'MyNotePaper');
+                ->subject('Welcome to Testkerja')
+                ->from('info@testker.com', 'Testker');
         });
 
         return $user;
